@@ -1,12 +1,11 @@
 import githubLogo from "../images/github.png";
-import facebookLogo from "../images/facebook.jpg";
 import linkedLogo from "../images/linked.png";
 import './ContactLinks.css'
 
 function ContactLinks() {
     return ( 
     <div className='contact-links'>
-    <a href="https://github.com/SamuelMaltais/" target="_blank">
+    <a href="https://github.com/Exz0tikWaffle/" target="_blank">
     <img
       src={githubLogo}
       height={35}
@@ -15,17 +14,8 @@ function ContactLinks() {
       alt=''
     ></img>
   </a>
-  <a href="https://www.facebook.com/samuel.maltais.90" target="_blank">
-    <img
-      src={facebookLogo}
-      height={35}
-      width={35}
-      className="contact-link"
-      alt=''
-    ></img>
-  </a>
   <a
-    href="https://www.linkedin.com/in/samuel-maltais-a144ab1b1"
+    href="https://www.linkedin.com/in/leo-tremblay/"
     target="_blank"
   >
     <img

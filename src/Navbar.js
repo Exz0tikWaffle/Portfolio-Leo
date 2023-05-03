@@ -3,7 +3,7 @@ import "./Navbar.css";
 import "./Hamburger.css";
 import { pushRotate as Menu } from "react-burger-menu";
 import ContactLinks from "./components/ContactLinks";
-import logoImage from "./images/dog.jpg";
+import logoImage from "./images/waffleLogo.png";
 
 function Navbar(props) {
   const scroll = (element) => {
@@ -52,10 +52,10 @@ function Navbar(props) {
       </Menu>
       <div className="navbar-container">
         <label className="name-logo">
-          <img src={logoImage} height={50} width={50} alt=""></img>
+          <img src={logoImage} width={60} alt=""></img>
           <div>
-            <b>SAMUEL</b>
-            <br></br>MALTAIS
+            <b>LEO</b>
+            <br></br>TREMBLAY
           </div>
         </label>
 

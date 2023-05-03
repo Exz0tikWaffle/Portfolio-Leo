@@ -24,7 +24,7 @@ function App() {
             skills={skills}
             aboutMe={aboutMe}
           />
-          <InteractiveProject />
+          {/* <InteractiveProject /> */}
         </header>
         <div className="indexwtv">
           <Projects ref={projects} />

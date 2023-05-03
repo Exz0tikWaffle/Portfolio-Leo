@@ -74,11 +74,12 @@ function ProjectCard(props) {
         <ul>
           <div className="seperators">
             <li>{props.skills[0]}</li>
-            <li>{props.skills[1]}</li>
+            {props.skills[1]!=null ? (<li>{props.skills[1]}</li>) : null}
           </div>
           <div className="seperators">
-            <li>{props.skills[2]}</li>
-            <li>{props.skills[3]}</li>
+            {props.skills[2]!=null ? (<li>{props.skills[2]}</li>) : null}
+            
+            {props.skills[3]!=null ? (<li>{props.skills[3]}</li>) : null}
           </div>
         </ul>
         <h3>Role description</h3>
