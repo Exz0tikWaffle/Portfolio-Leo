@@ -105,15 +105,9 @@ export const options = [
   },
   {
     label: "Excel / vba",
-    mastery: 70,
+    mastery: 50,
     description:
-      "I used Excel in many labs, using macros and complex functions to animate physical effects, such as spread of thermal energy and electrical attraction.",
-  },
-  {
-    label: "GraphQL",
-    mastery: 20,
-    description:
-      "I studied graphQL but never used it practically. I'm interested in building something with it in the future",
+      "Back in high school I used excel quite often when analyzing data for physics lab reports",
   },
 ];
 const labelsPieChart = [
