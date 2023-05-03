@@ -52,7 +52,7 @@ function Navbar(props) {
       </Menu>
       <div className="navbar-container">
         <label className="name-logo">
-          <img src={logoImage} width={60} alt=""></img>
+          <img src={logoImage} height={50} width={50} alt=""></img>
           <div>
             <b>LEO</b>
             <br></br>TREMBLAY

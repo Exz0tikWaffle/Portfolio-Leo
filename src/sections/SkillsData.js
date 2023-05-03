@@ -1,19 +1,18 @@
 //BAR CHART
 const labels = [
+  "Python",
+  "Java",
   "Javascript",
   "React",
-  "CSS / HTML",
-  "Python",
-  "ExpressJS",
-  "No SQL",
-  "SQL",
+  "HTML/CSS",
+  "C++"
 ];
 export const data = {
   labels: labels,
   datasets: [
     {
       label: "My strongest languages",
-      data: [100, 100, 95, 90, 90, 80, 70],
+      data: [100, 100, 90, 90, 80, 50],
       backgroundColor: [
         "rgba(255, 99, 132, 0.2)",
         "rgba(255, 159, 64, 0.2)",
@@ -50,61 +49,49 @@ export const setting = {
 //AUTOCOMPLETE
 export const options = [
   {
-    label: "Javascript",
+    label: "Python",
     mastery: 100,
     description:
-      "Javascript is my favourite language, I have years of experience using it in backends and frontends.",
+      "I've done a lot of projects with it while I was in high school. I still use Python often when I want to test quickly test an algorithm.",
   },
   {
-    label: "Css",
+    label: "Java",
+    mastery: 100,
+    description:
+      "I've used Java for a lot of projects I did during highschool. I find the interdependence of objects fascinating in any Java project."
+  },
+  {
+    label: "Javascript",
     mastery: 90,
     description:
-      "When it comes to applying a design, I perform extremely well, but in order to make my own, good looking UI's, I usually resort to libraries",
+      "I've used Javascript quite extensively for web development, mainly frontend.",
+  },
+  {
+    label: "HTML/CSS",
+    mastery: 90,
+    description:
+      "Although I use frontend libraries more often now, I can use HTML and CSS quite freely to create sophisticated designs.",
   },
   {
     label: "React",
-    mastery: 100,
-    description:
-      "I love using React with material UI to build projects quickely. I am a react enjoyer and plan to stay one !",
-  },
-  {
-    label: "ExpressJs",
-    mastery: 100,
-    description:
-      "I used to use Flask and the syntax is similar. I used expressJS for many side projects.",
-  },
-  {
-    label: "No SQL (mongodb)",
     mastery: 80,
     description:
-      "I have used mongodb to store data for hackathons and used it in a website to store and query quotes.",
-  },
-  {
-    label: "SQL",
-    mastery: 70,
-    description:
-      "I have used SQL with Oracle in my McGill intership to keep track of expensive physics lab equipement",
+      "I love using React with material UI to build projects quickly. I find it easy to use and I like how the code is organized.",
   },
   {
     label: "C#",
-    mastery: 60,
+    mastery: 40,
     description:
-      "I have built a mini game in a hackathon with C# and Unity. I also used C# for personnal use desktop apps such as storyboard for pratice",
+      "I have a little experience developing with C#, for game development. I'm sure I can learn it quickly as the syntax is similar to Java",
   },
   {
     label: "C++",
-    mastery: 70,
+    mastery: 50,
     description:
-      "I used C++ mainly for competitive programming, where its execution speed and community were very usefull.",
+      "I use C++ when I'm actively learning new algorithms. I like the unambiguous syntax it has compared to something like Python",
   },
   {
-    label: "Python",
-    mastery: 90,
-    description:
-      "I used python to make a little bit of everything. Mini games with pygames, backends with flask and data visualisation with pandas.",
-  },
-  {
-    label: "Excel / vba",
+    label: "Excel",
     mastery: 50,
     description:
       "Back in high school I used excel quite often when analyzing data for physics lab reports",
